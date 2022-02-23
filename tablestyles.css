@@ -1,0 +1,12 @@
+body {background-color:#fcfff9;
+margin-left: 100px;
+margin-right: 100px;
+font-family: monospace;
+font-size: 18px;
+color:dimgray;
+text-align:center;}
+
+tr th{font-weight:bold;}
+tr th, tr td{ padding:5px;}
+th{border: 5px solid #C1DAD7;}
+td{border: 5px solid #C1DAD7;}
