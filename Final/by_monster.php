@@ -51,10 +51,7 @@ button {
 
 <?php
 
-$hn= 'localhost'; 
-$db= 'bwalte16_638'; 
-$un= 'bwalte16_mysql'; 
-$pw= 'VYQDu5_CjjHA'; 
+
 
 $conn = new mysqli($hn, $un, $pw, $db);
 if ($conn->connect_error) die($conn->connect_error);
