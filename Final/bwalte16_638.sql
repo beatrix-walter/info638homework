@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `Director`
 --
 
-CREATE TABLE `Director` (
+CREATE TABLE `director` (
   `director_id` int(11) NOT NULL,
   `director_fname` varchar(20) NOT NULL,
   `director_lname` varchar(20) NOT NULL
@@ -37,7 +37,7 @@ CREATE TABLE `Director` (
 -- Dumping data for table `Director`
 --
 
-INSERT INTO `Director` (`director_id`, `director_fname`, `director_lname`) VALUES
+INSERT INTO `director` (`director_id`, `director_fname`, `director_lname`) VALUES
 (1, 'Todd', 'Browning');
 
 -- --------------------------------------------------------
@@ -165,7 +165,7 @@ INSERT INTO `source_location` (`source_location_id`, `availability`, `street_add
 --
 -- Indexes for table `Director`
 --
-ALTER TABLE `Director`
+ALTER TABLE `director`
   ADD PRIMARY KEY (`director_id`);
 
 --
@@ -210,7 +210,7 @@ ALTER TABLE `source_location`
 --
 -- Constraints for table `Director`
 --
-ALTER TABLE `Director`
+ALTER TABLE `director`
   ADD CONSTRAINT `director_ibfk_1` FOREIGN KEY (`director_id`) REFERENCES `film` (`director_id`);
 
 --
