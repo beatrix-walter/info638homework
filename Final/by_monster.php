@@ -3,37 +3,7 @@
 
 <head>
  <style>
-
-h1 {
-  color: dimgray;
-  font-family: American Typewriter, serif;
-  font-size: 200%;
-}
-    h2 {
-        text-align: center;
-        color: dimgray;
-        font-family: American Typewriter, serif;
-        font-size: 120%;
-    }
-    body {
-        border: 1px solid black;
-        width: 1024px;
-        margin: auto;
-        text-align: center;
-        color: dimgray;
-        font-family: American Typewriter, serif;
-        font-size: 150%;
-    }
-p {
-  color: dimgrey;
-  font-family: American Typewriter, serif;
-  font-size: 80%;
-}
-button {
-    color: dimgrey;
-  font-family: American Typewriter, serif;
-  font-size: 80%;   
-    }
+<link rel="stylesheet" href="final.css">
 </style>
 </head>
     
