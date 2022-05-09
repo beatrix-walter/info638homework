@@ -3,40 +3,10 @@
 
 <head>
  <style>
-
-h1 {
-  color: dimgray;
-  font-family: American Typewriter, serif;
-  font-size: 200%;
-}
-    h2 {
-        text-align: center;
-        color: dimgray;
-        font-family: American Typewriter, serif;
-        font-size: 120%;
-    }
-    body {
-        border: 1px solid black;
-        width: 1024px;
-        margin: auto;
-        text-align: center;
-        color: dimgray;
-        font-family: American Typewriter, serif;
-        font-size: 150%;
-    }
-p {
-  color: dimgrey;
-  font-family: American Typewriter, serif;
-  font-size: 80%;
-}
-button {
-    color: dimgrey;
-  font-family: American Typewriter, serif;
-  font-size: 80%;   
-    }
+<link rel="stylesheet" href="final.css">
 </style>
 </head>
-
+ 
 <h1>
     H is for Horror: <br>
     When did the horror genre begin? 
@@ -89,10 +59,6 @@ if ($conn->connect_error) die($conn->connect_error);
 
 <?php
 
-$hn= 'localhost'; 
-$db= 'bwalte16_638'; 
-$un= 'bwalte16_mysql'; 
-$pw= 'VYQDu5_CjjHA'; 
 
 $conn = new mysqli($hn, $un, $pw, $db);
 if ($conn->connect_error) die($conn->connect_error);
